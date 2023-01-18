@@ -1,0 +1,18 @@
+[package]
+name = "konisto"
+version = "0.1.0"
+edition = "2021"
+authors = ["Novout <gcnovout@gmail.com>"]
+license = "MIT"
+description = "A another project watcher for cargo cli."
+readme = "README.md"
+homepage = "https://github.com/Novout/konisto"
+repository = "https://github.com/Novout/konisto"
+keywords = ["cli", "stub", "watch"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+notify = { version = "5" }
+notify-debouncer-mini = { version = "0.2.0" }
